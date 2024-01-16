@@ -16,14 +16,7 @@
 * Autorización/Autenticación
 * Gestión de Seguridad
  ## Patrones de Relacion
- * Cooperación
-   ** Gestión de Clientes 
- * Cliente - Provedor con capa anticorrupción
-   ** GestionPagosContext y GestionClientesContext
-   **  GestionPagosContext y GestionVehiculosContext
- * Cliente - Provedor con capa anticorrupción
-   ** GestionPagosContext y GestionClientesContext
-   **  GestionPagosContext y GestionVehiculosContext
-   **  AutorizacionAutenticacionContext y GestionSeguridadContext
-* Cliente - Provedor conformista
-  ** AutorizacionAutenticacionContext [PL] ->[CF]GestionAlquilerContext
+ * Cooperación: Gestión de Clientes 
+ * Cliente - Provedor con capa anticorrupción: GestionPagosContext y GestionClientesContext, GestionPagosContext y GestionVehiculosContext
+ * Cliente - Provedor con capa anticorrupción: GestionPagosContext y GestionClientesContext, GestionPagosContext y GestionVehiculosContext, AutorizacionAutenticacionContext y GestionSeguridadContext
+* Cliente - Provedor conformista: AutorizacionAutenticacionContext y GestionAlquilerContext
