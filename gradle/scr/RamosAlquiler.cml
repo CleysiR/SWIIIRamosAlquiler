@@ -1,0 +1,53 @@
+ContextMap BookEcommerceMap{
+    contains GestionAlquilerContext
+    contains GestionClientesContext
+    contains GestionVehiculosContext
+    contains GestionPagosContext
+    contains AutorizacionAutenticacionContext
+    contains GestionSeguridadContext
+    
+
+    /* Cooperación */
+    /*OrdenesContext [P]<->[P] EnviosContext
+    OrdenesContext [P]<->[P] GestionClientesContext
+    OrdenesContext [P]<->[P] PagosContext
+
+    /* Conformista */
+    /*GestionClientesContext [CF]<-[PL] AutorizacionAutenticacionContext
+
+    /* Anti-corruption layer */
+    /*UbicacionTiendasContext [D,ACL]<-[U] EnviosContext*/
+
+     /* Open-Host service */
+    /*CatalogProductosContext [U, OHS]->[D] OrdenesContext
+
+     /* Customer - Supplier */
+    /*BlogContext [D]<-[U] AutorizacionAutenticacionContext
+    ResenasContext [D]<-[U] AutorizacionAutenticacionContext*/
+    
+}
+
+BoundedContext GestionAlquilerContext {
+    
+}
+
+
+BoundedContext GestionVehiculosContext {
+    
+    
+}
+
+BoundedContext GestionClientesContext {
+    
+}
+
+BoundedContext GestionPagosContext {
+    
+}
+
+BoundedContext AutorizacionAutenticacionContext {
+    
+}
+BoundedContext GestionSeguridadContext {
+    
+}

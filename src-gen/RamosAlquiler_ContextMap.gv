@@ -1,0 +1,9 @@
+digraph "ContextMapGraph" {
+graph ["imagepath"="/tmp/GraphvizJava"]
+"AutorizacionAutenticacionContext" ["margin"="0.3","orientation"="265","shape"="egg","fontsize"="16","style"="bold","label"="AutorizacionAutenticacionContext\n","fontname"="sans-serif"]
+"GestionAlquilerContext" ["margin"="0.3","orientation"="303","shape"="egg","fontsize"="16","style"="bold","label"="GestionAlquilerContext\n","fontname"="sans-serif"]
+"GestionClientesContext" ["margin"="0.3","orientation"="146","shape"="egg","fontsize"="16","style"="bold","label"="GestionClientesContext\n","fontname"="sans-serif"]
+"GestionPagosContext" ["margin"="0.3","orientation"="284","shape"="egg","fontsize"="16","style"="bold","label"="GestionPagosContext\n","fontname"="sans-serif"]
+"GestionSeguridadContext" ["margin"="0.3","orientation"="72","shape"="egg","fontsize"="16","style"="bold","label"="GestionSeguridadContext\n","fontname"="sans-serif"]
+"GestionVehiculosContext" ["margin"="0.3","orientation"="282","shape"="egg","fontsize"="16","style"="bold","label"="GestionVehiculosContext\n","fontname"="sans-serif"]
+}
